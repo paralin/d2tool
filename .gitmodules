@@ -1,0 +1,3 @@
+[submodule "barebones"]
+	path = barebones
+	url = https://github.com/D2Modding/barebones.git

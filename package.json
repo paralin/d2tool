@@ -1,0 +1,32 @@
+{
+  "name": "d2tool",
+  "version": "0.1.0",
+  "description": "A tool to bootstrap Dota 2 addons.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/D2Modding/d2tool.git"
+  },
+  "keywords": [
+    "dota2"
+  ],
+  "author": "Christian Stewart (Quantum)",
+  "license": "Apache v2",
+  "bugs": {
+    "url": "https://github.com/D2Modding/d2tool/issues"
+  },
+  "homepage": "https://github.com/D2Modding/d2tool",
+  "dependencies": {
+    "chalk": "^0.5.1",
+    "cowsay": "^1.0.3",
+    "inquirer": "^0.5.1",
+    "lingo": "0.0.5",
+    "mkdirp": "^0.5.0",
+    "progress": "^1.1.7",
+    "rimraf": "^2.2.8",
+    "wrench": "^1.5.8"
+  }
+}
