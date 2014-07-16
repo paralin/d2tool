@@ -2,9 +2,9 @@
   "name": "d2tool",
   "version": "0.1.0",
   "description": "A tool to bootstrap Dota 2 addons.",
-  "main": "index.js",
+  "main": "d2tool.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "coffee d2tool.coffee"
   },
   "repository": {
     "type": "git",
