@@ -139,6 +139,8 @@ inquirer.prompt([
   sedi dir("output/resource/addon_english.txt"), "Barebones", answers.name
   sedi dir("output/resource/overviews/barebones.txt"), "barebones", answers.name
   mv dir("output/resource/overviews/barebones.txt"), dir("output/resource/overviews/#{answers.name}.txt")
+  l c.underline.blue "Configuring shops..."
+  mv dir("output/scripts/shops/barebones_shops.txt", "output/scripts/shops/#{answers.name}_shops.txt")
   l c.underline.blue "Configuring maps..."
   mv dir("output/maps/barebones.bsp"), dir("output/maps/#{answers.name}.bsp")
   mv dir("output/maps/barebones.gnv"), dir("output/maps/#{answers.name}.gnv")
