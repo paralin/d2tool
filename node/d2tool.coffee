@@ -108,7 +108,7 @@ inquirer.prompt([
 ], (answers)->
   l c.underline.blue "Copying template to output directory..."
   rm dir("output")
-  cpr dir("barebones"), dir("output")
+  cpr dir("../barebones"), dir("output")
   rm dir("output/.git")
   rm dir("output/LICENSE")
   rm dir("output/NOTICE")
